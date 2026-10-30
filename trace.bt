@@ -1,0 +1,5 @@
+struct demo_addr { unsigned short family; unsigned short port; unsigned int addr; };
+BEGIN { printf("READY\n"); }
+kprobe:tcp_v4_connect /cgroup == 4319/ { $a=(struct demo_addr *)arg1; $p=$a->port; @port[tid]=($p >> 8) | (($p & 255) << 8); }
+kretprobe:tcp_v4_connect /@port[tid]/ { printf("EV %d %d %d\n",pid,@port[tid],retval); delete(@port[tid]); }
+END { clear(@port); }

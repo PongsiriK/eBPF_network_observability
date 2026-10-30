@@ -1,0 +1,56 @@
+{"id": "6eb6eb6af6", "time": 1793305476.8291514, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 2201, "result": {"ok": true, "http": 200}}
+{"id": "008871f0a0", "time": 1793305507.9305108, "port": 9000, "policy": "ALERT", "status": "ALERT", "received": true, "ms": 603, "result": {"ok": true, "http": 200}}
+{"id": "a42e5edd4f", "time": 1793305522.2522445, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 791, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "9daa5903c6", "time": 1793305541.8655217, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 2270, "result": {"ok": true, "http": 200}}
+{"id": "58e36bec81", "time": 1793305545.102937, "port": 9000, "policy": "ALERT", "status": "ALERT", "received": true, "ms": 2606, "result": {"ok": true, "http": 200}}
+{"id": "2ccba525e6", "time": 1793305547.052126, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 1196, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "5c2d8c657a", "time": 1793305553.8750422, "port": 8123, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 1811, "result": {"ok": true, "http": 200}}
+{"id": "642d912437", "time": 1793305563.0176327, "port": 8123, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 1938, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "26946bb2c3", "time": 1793305571.832596, "port": 8123, "policy": "ALERT", "status": "ALERT", "received": true, "ms": 2016, "result": {"ok": true, "http": 200}}
+{"id": "e3e716d760", "time": 1793305588.2100902, "port": 8123, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 2108, "result": {"ok": true, "http": 200}}
+{"id": "0195c43504", "time": 1793328667.5251808, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 1359, "result": {"ok": true, "http": 200}}
+{"id": "b567f234dc", "time": 1793328677.8712456, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 633, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "c32ebd2413", "time": 1793328695.4651103, "port": 9000, "policy": "ALERT", "status": "ALERT", "received": true, "ms": 484, "result": {"ok": true, "http": 200}}
+{"id": "b9b29c8e3d", "time": 1793328733.4350376, "port": 9001, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 1509, "result": {"ok": true, "http": 200}}
+{"id": "ac0c97f200", "time": 1793328775.3383527, "port": 9001, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 665, "result": {"ok": true, "http": 200}}
+{"id": "401d0c2859", "time": 1793332770.2084184, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 681, "result": {"ok": true, "http": 200}}
+{"id": "fadcc5fc5a", "time": 1793332773.2117603, "port": 9000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 592, "result": {"ok": true, "http": 200}}
+{"id": "410ce4dd3b", "time": 1793332776.2668374, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 596, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "fc2fedf896", "time": 1793332779.3430889, "port": 65534, "policy": "UNCONFIGURED", "status": "ERROR", "received": false, "ms": 651, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "00e7ba9f3b", "time": 1793332804.1305454, "port": 65534, "policy": "UNCONFIGURED", "status": "ERROR", "received": false, "ms": 765, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "387bee8956", "time": 1793332838.2611597, "port": 9001, "policy": "ALERT", "status": "ALERT", "received": true, "ms": 577, "result": {"ok": true, "http": 200}}
+{"id": "008d52614b", "time": 1793332927.262609, "port": 65534, "policy": "UNCONFIGURED", "status": "ERROR", "received": false, "ms": 682, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "1df2877859", "time": 1793332943.5366457, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 731, "result": {"ok": true, "http": 200}}
+{"id": "7fc7fe2906", "time": 1793332953.8260002, "port": 8001, "policy": "UNCONFIGURED", "status": "ERROR", "received": false, "ms": 544, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "815f63872f", "time": 1793332976.587022, "port": 8001, "policy": "UNCONFIGURED", "status": "ERROR", "received": false, "ms": 595, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "0c2e509881", "time": 1793332992.0318756, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 695, "result": {"ok": true, "http": 200}}
+{"id": "d570504af8", "time": 1793332997.6996055, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 888, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "5a95bfe1c4", "time": 1793333052.4914725, "port": 9000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 554, "result": {"ok": true, "http": 200}}
+{"id": "9a2b6c0c7c", "time": 1793333118.7172456, "port": 9000, "policy": "ALERT", "status": "ALERT", "received": true, "ms": 705, "result": {"ok": true, "http": 200}}
+{"id": "3cb6cab392", "time": 1793333153.5525703, "port": 9000, "policy": "ALERT", "status": "ALERT", "received": true, "ms": 778, "result": {"ok": true, "http": 200}}
+{"id": "d76e99eb2d", "time": 1793333164.161782, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 626, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "727746cc2a", "time": 1793333272.696811, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 622, "result": {"ok": true, "http": 200}}
+{"id": "44a0a52855", "time": 1793333284.9260063, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 633, "result": {"ok": true, "http": 200}}
+{"id": "f26360ba9a", "time": 1793333297.976041, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 573, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "128c10eaf4", "time": 1793333305.7186215, "port": 80, "policy": "UNCONFIGURED", "status": "ERROR", "received": false, "ms": 587, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "5499d28209", "time": 1793333449.2683895, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 591, "result": {"ok": true, "http": 200}}
+{"id": "6bdddfdbaa", "time": 1793333514.37432, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 592, "result": {"ok": true, "http": 200}}
+{"id": "a9bfe568c4", "time": 1793333526.2442167, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 539, "result": {"ok": true, "http": 200}}
+{"id": "1b9acd48e1", "time": 1793333738.3810089, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 697, "result": {"ok": true, "http": 200}}
+{"id": "df3ab8b20e", "time": 1793333753.799364, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 723, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "7cc84ceaa8", "time": 1793333937.973539, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 640, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "fa539ff4fa", "time": 1793334014.2130609, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 557, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "29fa7b8929", "time": 1793334035.7707767, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 518, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "558022dda7", "time": 1793334044.859794, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 549, "result": {"ok": true, "http": 200}}
+{"id": "1b541d2f17", "time": 1793334274.1294813, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 570, "result": {"ok": true, "http": 200}}
+{"id": "df4a8aebe7", "time": 1793338420.1963603, "port": 1, "policy": "UNCONFIGURED", "status": "ERROR", "received": false, "ms": 470, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "70e737e1eb", "time": 1793340220.9956355, "port": 1, "policy": "UNCONFIGURED", "status": "ERROR", "received": false, "ms": 596, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "3b04f4e5f5", "time": 1793340225.6012688, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 553, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "e5c31df97c", "time": 1793340237.6557736, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 649, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}
+{"id": "49596e5726", "time": 1793340281.7114167, "port": 9000, "policy": "ALERT", "status": "ALERT", "received": true, "ms": 528, "result": {"ok": true, "http": 200}}
+{"id": "acd819c218", "time": 1793343060.0706153, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 557, "result": {"ok": true, "http": 200}}
+{"id": "3c140b4bb8", "time": 1793343753.8785188, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 516, "result": {"ok": true, "http": 200}}
+{"id": "98c66da733", "time": 1793343846.3714993, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 609, "result": {"ok": true, "http": 200}}
+{"id": "d4e2d1407e", "time": 1793344110.5114238, "port": 8000, "policy": "ALLOW", "status": "ALLOW", "received": true, "ms": 571, "result": {"ok": true, "http": 200}}
+{"id": "518a64e423", "time": 1793344120.2387004, "port": 9000, "policy": "ALERT", "status": "ALERT", "received": true, "ms": 578, "result": {"ok": true, "http": 200}}
+{"id": "32c1668408", "time": 1793344235.441126, "port": 8080, "policy": "BLOCK", "status": "BLOCK", "received": false, "ms": 591, "result": {"ok": false, "error": "<urlopen error [Errno 111] Connection refused>"}}

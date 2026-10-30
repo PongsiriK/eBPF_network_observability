@@ -1,0 +1,222 @@
+{
+  "ready": true,
+  "rules": [
+    {
+      "port": 8000,
+      "policy": "ALLOW"
+    },
+    {
+      "port": 9000,
+      "policy": "ALERT"
+    },
+    {
+      "port": 8080,
+      "policy": "BLOCK"
+    }
+  ],
+  "events": [
+    {
+      "id": "e3e716d760",
+      "time": 1793305588.2100902,
+      "port": 8123,
+      "policy": "ALLOW",
+      "status": "ALLOW",
+      "received": true,
+      "ms": 2108,
+      "result": {
+        "ok": true,
+        "http": 200
+      }
+    },
+    {
+      "id": "26946bb2c3",
+      "time": 1793305571.832596,
+      "port": 8123,
+      "policy": "ALERT",
+      "status": "ALERT",
+      "received": true,
+      "ms": 2016,
+      "result": {
+        "ok": true,
+        "http": 200
+      }
+    },
+    {
+      "id": "642d912437",
+      "time": 1793305563.0176327,
+      "port": 8123,
+      "policy": "BLOCK",
+      "status": "BLOCK",
+      "received": false,
+      "ms": 1938,
+      "result": {
+        "ok": false,
+        "error": "<urlopen error [Errno 111] Connection refused>"
+      }
+    },
+    {
+      "id": "5c2d8c657a",
+      "time": 1793305553.8750422,
+      "port": 8123,
+      "policy": "ALLOW",
+      "status": "ALLOW",
+      "received": true,
+      "ms": 1811,
+      "result": {
+        "ok": true,
+        "http": 200
+      }
+    },
+    {
+      "id": "2ccba525e6",
+      "time": 1793305547.052126,
+      "port": 8080,
+      "policy": "BLOCK",
+      "status": "BLOCK",
+      "received": false,
+      "ms": 1196,
+      "result": {
+        "ok": false,
+        "error": "<urlopen error [Errno 111] Connection refused>"
+      }
+    },
+    {
+      "id": "58e36bec81",
+      "time": 1793305545.102937,
+      "port": 9000,
+      "policy": "ALERT",
+      "status": "ALERT",
+      "received": true,
+      "ms": 2606,
+      "result": {
+        "ok": true,
+        "http": 200
+      }
+    },
+    {
+      "id": "9daa5903c6",
+      "time": 1793305541.8655217,
+      "port": 8000,
+      "policy": "ALLOW",
+      "status": "ALLOW",
+      "received": true,
+      "ms": 2270,
+      "result": {
+        "ok": true,
+        "http": 200
+      }
+    },
+    {
+      "id": "a42e5edd4f",
+      "time": 1793305522.2522445,
+      "port": 8080,
+      "policy": "BLOCK",
+      "status": "BLOCK",
+      "received": false,
+      "ms": 791,
+      "result": {
+        "ok": false,
+        "error": "<urlopen error [Errno 111] Connection refused>"
+      }
+    },
+    {
+      "id": "008871f0a0",
+      "time": 1793305507.9305108,
+      "port": 9000,
+      "policy": "ALERT",
+      "status": "ALERT",
+      "received": true,
+      "ms": 603,
+      "result": {
+        "ok": true,
+        "http": 200
+      }
+    },
+    {
+      "id": "6eb6eb6af6",
+      "time": 1793305476.8291514,
+      "port": 8000,
+      "policy": "ALLOW",
+      "status": "ALLOW",
+      "received": true,
+      "ms": 2201,
+      "result": {
+        "ok": true,
+        "http": 200
+      }
+    }
+  ],
+  "ebpf": [
+    {
+      "time": 1793305587.5221853,
+      "pid": 6069,
+      "port": 8123,
+      "return": 0,
+      "cgroup": 4319
+    },
+    {
+      "time": 1793305570.7121246,
+      "pid": 5118,
+      "port": 8123,
+      "return": 0,
+      "cgroup": 4319
+    },
+    {
+      "time": 1793305562.2654793,
+      "pid": 4541,
+      "port": 8123,
+      "return": 0,
+      "cgroup": 4319
+    },
+    {
+      "time": 1793305552.9263704,
+      "pid": 3894,
+      "port": 8123,
+      "return": 0,
+      "cgroup": 4319
+    },
+    {
+      "time": 1793305546.2778633,
+      "pid": 3328,
+      "port": 8080,
+      "return": 0,
+      "cgroup": 4319
+    },
+    {
+      "time": 1793305543.5264485,
+      "pid": 3143,
+      "port": 9000,
+      "return": 0,
+      "cgroup": 4319
+    },
+    {
+      "time": 1793305540.1934707,
+      "pid": 2955,
+      "port": 8000,
+      "return": 0,
+      "cgroup": 4319
+    },
+    {
+      "time": 1793305521.8745046,
+      "pid": 2738,
+      "port": 8080,
+      "return": 0,
+      "cgroup": 4319
+    },
+    {
+      "time": 1793305507.6002982,
+      "pid": 2521,
+      "port": 9000,
+      "return": 0,
+      "cgroup": 4319
+    },
+    {
+      "time": 1793305475.6846945,
+      "pid": 1842,
+      "port": 8000,
+      "return": 0,
+      "cgroup": 4319
+    }
+  ],
+  "sensor": "live \u00b7 cgroup 4319"
+}

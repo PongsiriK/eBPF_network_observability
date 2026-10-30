@@ -1,0 +1,1 @@
+[{"port": 8000, "policy": "ALLOW"}, {"port": 9000, "policy": "ALERT"}, {"port": 8080, "policy": "BLOCK"}, {"port": 9001, "policy": "ALLOW"}]
